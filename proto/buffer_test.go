@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ClickHouse/ch-go/internal/gold"
+	"github.com/paulofeitor/ch-go/internal/gold"
 )
 
 func TestBuffer(t *testing.T) {

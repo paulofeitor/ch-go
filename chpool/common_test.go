@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/ClickHouse/ch-go"
-	"github.com/ClickHouse/ch-go/cht"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go"
+	"github.com/paulofeitor/ch-go/cht"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func PoolConnOpt(t testing.TB, opt Options) *Pool {

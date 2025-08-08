@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go/internal/gold"
+	"github.com/paulofeitor/ch-go/internal/gold"
 )
 
 func TestMain(m *testing.M) {

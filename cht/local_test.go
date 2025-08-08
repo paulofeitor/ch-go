@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func colStr(data []string) proto.ColStr {

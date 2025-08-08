@@ -21,7 +21,7 @@ func TestExtract(t *testing.T) {
 			Name: "Main",
 			Input: debug.BuildInfo{
 				Main: debug.Module{
-					Path:    "github.com/ClickHouse/ch-go/foo/bar",
+					Path:    "github.com/paulofeitor/ch-go/foo/bar",
 					Version: "1.5.10",
 				},
 			},
@@ -31,7 +31,7 @@ func TestExtract(t *testing.T) {
 			Name: "Invalid",
 			Input: debug.BuildInfo{
 				Main: debug.Module{
-					Path:    "github.com/ClickHouse/ch-go/foo/bar",
+					Path:    "github.com/paulofeitor/ch-go/foo/bar",
 					Version: "bad",
 				},
 			},
@@ -42,7 +42,7 @@ func TestExtract(t *testing.T) {
 			Input: debug.BuildInfo{
 				Deps: []*debug.Module{
 					{
-						Path:    "github.com/ClickHouse/ch-go",
+						Path:    "github.com/paulofeitor/ch-go",
 						Version: "2.110.145-alpha.0",
 					},
 				},

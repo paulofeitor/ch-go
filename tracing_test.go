@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 type randomIDGenerator struct {

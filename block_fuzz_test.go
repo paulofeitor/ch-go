@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go/internal/gold"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/internal/gold"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func encodeTestStrBlock() []byte {

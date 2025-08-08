@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func ExampleQuery_multipleInputColumns() {

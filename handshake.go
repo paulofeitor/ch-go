@@ -13,8 +13,8 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ClickHouse/ch-go/otelch"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/otelch"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func (c *Client) encodeAddendum() {

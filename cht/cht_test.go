@@ -11,10 +11,10 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go"
-	"github.com/ClickHouse/ch-go/cht"
-	"github.com/ClickHouse/ch-go/internal/ztest"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go"
+	"github.com/paulofeitor/ch-go/cht"
+	"github.com/paulofeitor/ch-go/internal/ztest"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func TestXML(t *testing.T) {

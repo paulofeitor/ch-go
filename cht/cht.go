@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/ClickHouse/ch-go/internal/e2e"
+	"github.com/paulofeitor/ch-go/internal/e2e"
 )
 
 // EnvBin is environmental variable that sets paths to current

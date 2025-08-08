@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 type MapPair[V comparable] struct {

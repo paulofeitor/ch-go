@@ -3,7 +3,7 @@ package chpool
 import (
 	"github.com/jackc/puddle/v2"
 
-	"github.com/ClickHouse/ch-go"
+	"github.com/paulofeitor/ch-go"
 )
 
 type connResource struct {

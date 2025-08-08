@@ -44,8 +44,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go"
-	"github.com/ClickHouse/ch-go/chpool"
+	"github.com/paulofeitor/ch-go"
+	"github.com/paulofeitor/ch-go/chpool"
 )
 
 func TestMutualTLS(t *testing.T) {

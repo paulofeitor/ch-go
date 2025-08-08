@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go/internal/gold"
+	"github.com/paulofeitor/ch-go/internal/gold"
 )
 
 func Test_putUInt256(t *testing.T) {

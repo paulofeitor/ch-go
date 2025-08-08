@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go/internal/gold"
+	"github.com/paulofeitor/ch-go/internal/gold"
 )
 
 func newByte8(v int) [8]byte {

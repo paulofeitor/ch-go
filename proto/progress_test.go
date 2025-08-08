@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ClickHouse/ch-go/internal/gold"
+	"github.com/paulofeitor/ch-go/internal/gold"
 )
 
 func TestProgress_EncodeAware(t *testing.T) {

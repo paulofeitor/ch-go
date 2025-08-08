@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func newCol[T any, C proto.ColumnOf[T]](c C, v ...T) C {

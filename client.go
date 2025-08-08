@@ -19,10 +19,10 @@ import (
 	"go.uber.org/zap"
 	cryptossh "golang.org/x/crypto/ssh"
 
-	"github.com/ClickHouse/ch-go/compress"
-	pkgVersion "github.com/ClickHouse/ch-go/internal/version"
-	"github.com/ClickHouse/ch-go/otelch"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/compress"
+	pkgVersion "github.com/paulofeitor/ch-go/internal/version"
+	"github.com/paulofeitor/ch-go/otelch"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 // Client implements ClickHouse binary protocol client on top of

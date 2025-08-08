@@ -24,8 +24,7 @@ func (c *ColDecimal32) Reset() {
 
 // Type returns ColumnType of Decimal32.
 func (ColDecimal32) Type() ColumnType {
-	return "Decimal(9, 2)"
-	//return ColumnTypeDecimal32
+	return ColumnTypeDecimal32
 }
 
 // Row returns i-th row of column.

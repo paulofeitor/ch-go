@@ -15,8 +15,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/ClickHouse/ch-go/cht"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/cht"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func requireEqual[T any](t *testing.T, a, b proto.ColumnOf[T]) {
@@ -946,7 +946,7 @@ func TestClient_Query(t *testing.T) {
 		require.False(t, data.Row(0).Set)
 	})
 	t.Run("NotUTF8", func(t *testing.T) {
-		// https://github.com/ClickHouse/ch-go/issues/226
+		// https://github.com/paulofeitor/ch-go/issues/226
 		t.Parallel()
 		conn := Conn(t)
 		data := &proto.ColUInt8{}

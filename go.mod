@@ -1,10 +1,11 @@
-module github.com/ClickHouse/ch-go
+module github.com/paulofeitor/ch-go
 
 go 1.23.0
 
 toolchain go1.24.1
 
 require (
+	github.com/ClickHouse/ch-go v0.67.0
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/dmarkham/enumer v1.5.11
 	github.com/dustin/go-humanize v1.0.1

@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ClickHouse/ch-go/cht"
-	"github.com/ClickHouse/ch-go/proto"
+	"github.com/paulofeitor/ch-go/cht"
+	"github.com/paulofeitor/ch-go/proto"
 )
 
 func BenchmarkInsert(b *testing.B) {
